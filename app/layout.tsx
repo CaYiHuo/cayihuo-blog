@@ -54,6 +54,7 @@ export default function RootLayout({
   return (
     <html lang="zh-CN" suppressHydrationWarning>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* Schema.org */}
         <script
           type="application/ld+json"

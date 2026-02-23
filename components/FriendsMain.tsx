@@ -15,7 +15,7 @@ function FriendsMain() {
 
 function Hero() {
     return (
-        <div className="bg-white dark:bg-black w-full h-lvh flex flex-col items-center justify-center text-center gap-y-3">
+        <div className="bg-white dark:bg-black w-full min-h-lvh flex flex-col items-center justify-center text-center gap-y-3">
             <h1 className="text-4xl font-bold text-text-primary dark:text-text-secondary">
                 友链站点
             </h1>

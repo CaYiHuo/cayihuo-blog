@@ -130,7 +130,7 @@ function Nav() {
   };
 
   return (
-    <header className=" fixed top-0 left-0 right-0 z-50 bg-white dark:bg-black border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-black border-b border-border">
       <div className="container flex justify-between items-center mx-auto py-4">
         <div className="logo-connent flex items-center gap-2">
           <Link

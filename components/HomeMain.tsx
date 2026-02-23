@@ -61,7 +61,7 @@ function Hero() {
     
 
     return (
-        <section className="about bg-white dark:bg-black w-full h-lvh flex flex-col items-center justify-center gap-y-3">
+        <section className="about bg-white dark:bg-black w-full min-h-lvh flex flex-col items-center justify-center gap-y-3">
             <button onClick={() => about_toast()} className="transition-colors">
                 <Image 
                     src="/cayihuo.png"
@@ -94,7 +94,7 @@ function Hero() {
 
 function Iam() {
     return (
-        <section className="about bg-white dark:bg-black w-full h-lvh flex flex-col items-center justify-center gap-y-3">
+        <section className="about bg-white dark:bg-black w-full min-h-lvh flex flex-col items-center justify-center gap-y-3">
             <h1 className="text-4xl font-bold text-text-primary dark:text-text-secondary">
                 i am 
             </h1>
@@ -118,7 +118,7 @@ function Iam() {
 
 function About() {
     return (
-        <section className="about bg-white dark:bg-black w-full h-lvh flex flex-col items-center justify-center gap-y-10">
+        <section className="about bg-white dark:bg-black w-full min-h-lvh flex flex-col items-center justify-center gap-y-10">
             <h1 className="text-4xl font-bold text-text-primary dark:text-text-secondary">
                 About me
             </h1>
