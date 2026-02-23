@@ -1,0 +1,16 @@
+# 依赖目录
+node_modules/
+
+.next/
+out/
+build/
+
+
+*.log
+
+.env
+.env.local
+.env.*.local
+
+.vscode/
+.idea/
